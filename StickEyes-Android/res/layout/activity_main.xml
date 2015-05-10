@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/txtArduino"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="" />
+
+    <EditText
+        android:id="@+id/speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textHeight"
+        android:layout_toLeftOf="@+id/btnSettingSend"
+        android:ems="10"
+        android:gravity="center_vertical|left"
+        android:inputType="numberSigned" />
+
+    <TextView
+        android:id="@+id/textDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/speed"
+        android:layout_marginTop="38dp"
+        android:text="@string/settings_text_distance" />
+
+    <Button
+        android:id="@+id/btnSettingSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/minDistance"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:text="@string/save_settings" />
+
+    <TextView
+        android:id="@+id/textHeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/txtArduino"
+        android:layout_marginTop="38dp"
+        android:text="@string/settings_text_speed" />
+
+    <EditText
+        android:id="@+id/minDistance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textDistance"
+        android:layout_toLeftOf="@+id/btnSettingSend"
+        android:ems="10"
+        android:inputType="numberSigned" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/btnFinish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnSettingSend"
+        android:layout_marginTop="54dp"
+        android:layout_toRightOf="@+id/minDistance"
+        android:text="@string/btn_finish" />
+
+    <Button
+        android:id="@+id/btnReconnect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnFinish"
+        android:layout_alignBottom="@+id/btnFinish"
+        android:layout_alignRight="@+id/btnSettingSend"
+        android:layout_marginRight="19dp"
+        android:text="@string/btn_reconnect" />
+
+</RelativeLayout>
+

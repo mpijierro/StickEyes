@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">StickEyes</string>
+    <string name="title_activity_main">StickEyes</string>
+    <string name="btn_settings">Configuración</string>
+    <string name="btn_finish">Salir</string>
+    <string name="btn_reconnect">Reconectar</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="settings_text_speed">Velocidad en metros por segundo</string>
+    <string name="settings_text_distance">Distancia en centímetros para el primer aviso</string>
+    <string name="save_settings">Guardar configuración</string>
+
+</resources>
