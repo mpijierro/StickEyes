@@ -1,2 +1,6 @@
 # StickEyes
-Detección de obstáculos mediante Arduino y Android.
+
+
+
+Por @mpijierro
+
